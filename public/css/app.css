@@ -1,0 +1,170 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #8080e2;
+    border-radius: 10px;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #3742fa;
+}
+.BigTitle{
+    font-size: xxx-large;
+    font-variant-caps: small-caps;
+    margin-bottom: auto;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%, 0);
+    border-radius: 15px;
+    border: #70a1ff 1px solid;
+    background-color: #5352ed;
+    width: 85%;
+    align-items: center;
+}
+.completedItems {
+    height: 30vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.all {
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 15px;
+    border: #70a1ff 1px solid;
+    background-color: #5352ed;
+    width: 40%;
+    height: -webkit-fill-available;
+}
+.all h1 {
+    text-align: center;
+    color: #fff;
+}
+label {
+    color: #fff;
+    text-align: center;
+}
+input {
+    background-color: #8080e2;
+    border: 0.5px solid transparent;
+    padding: 10px 15px;
+    border-radius: 15px;
+    outline: transparent;
+    color: #fff;
+}
+button {
+    background-color: #8080e2;
+    border: 0.5px solid transparent;
+    width: 100%;
+    padding: 8px;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-size: medium;
+    font-weight: 200;
+}
+button:hover{
+    background-color:#70a1ff ;
+    border-color: #8080e2;
+    transition: .5s;
+}
+.all p {
+    color: #70a1ff;
+}
+input::placeholder{
+    color: #c2c3e2;
+}
+.NewItemDiv{
+    height: 30vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.NewItem {
+    display: flex;
+    margin: 0 15px;
+    justify-content: space-between;
+    font-weight: 700;
+    align-items: center;
+}
+.CompletedTaskNameIcon{
+    display: flex;
+    width: 30%;
+}
+.CompletedTaskNameIcon p{
+    margin-right: 10px;
+}
+.completedItem {
+    display: flex;
+    margin: 0 15px;
+    justify-content: space-between;
+    margin: 0 15px;
+    font-weight: 700;
+    align-items: center;
+}
+.completedItem button{
+    width: auto;
+}
+.addItemForm {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #70a1ff;
+    padding: 40px;
+    border-radius: 30px;
+}
+.SvgClass {
+    font-size: 130px;
+}
+hr {
+    width: 80%;
+    border-color: #70a1ff;
+    height: 0.1px;
+}
+.AddTaskForm{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.AddTaskForm .ImageDiv img{
+    width: 330px;
+}
+.ImageDiv{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    margin: 0 auto;
+}
+.timeP{
+    font-size: small;
+    margin-top: -15px;
+    text-align: center;
+    opacity: 0.8;
+}
+.delete-alert{
+    text-align: center;
+    background-color: rgb(108, 235, 108);
+    color: #fff;
+    font-size: larger;
+    width: 20%;
+    font-weight: 800;
+    border-radius: 40px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    top: 10%;
+    transition: 1.5s;
+    left: 50%;
+    position: fixed;
+    transform: translate(-50%, -50%);
+}
