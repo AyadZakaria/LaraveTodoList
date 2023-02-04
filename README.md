@@ -1,3 +1,14 @@
+<h1>TaskMaster</h1>
+<p>A very Basic Todo List, With Simple and Nice Desine,</p>
+<h3>I Used For It :</h3>
+<ul>
+    <li>Laravel 8.83.27<li/>
+    JavaScript
+    <li>Basic CSS<li/>
+    Blade UI KIT Icons
+    <li>One Simple PNG</li>
+</ul>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
